@@ -1,50 +1,39 @@
-1. Crie o ambiente virtual e instale o Flask 
+# 📚 Documentação de Treinamento Python
 
+Bem-vindo! Esta pasta contém documentação sobre diversos tópicos de Python e ferramentas relacionadas.
 
- ```bash
-python3 -m venv venv
- ```
+## 🔗 Documentos Disponíveis
 
-2. Ative o ambiente virtual:
-Windows: .\venv\Scripts\activate.
-Linux/macOS: 
+### [Flask usando Python](./inc/flask%20hello.md)
+Guia completo para criar uma aplicação Flask com Python, incluindo:
+- Criação de ambiente virtual
+- Instalação do Flask
+- Estrutura básica de uma aplicação
+- Execução do servidor de desenvolvimento
 
- ```
-source venv/bin/activate
- ```
+### [Vim Shortcuts](./inc/vim%20shortcuts.md)
+Atalhos essenciais do editor Vim para melhorar sua produtividade:
+- Navegação
+- Modos de operação
+- Edição de texto
 
-Instale o Flask: 
- ```
-pip install Flask
- ```
+### [Coverage em Python](./inc/coverage%20in%20python.md)
+Guia de uso da ferramenta Coverage para medir cobertura de testes:
+- Instalação e configuração
+- Execução de testes com coverage
+- Geração de relatórios em HTML
 
-2. Crie o arquivo do aplicativo (app.py) 
-Crie um arquivo chamado app.py no diretório do projeto.
-Adicione o seguinte código ao app.py:
+### [Git Conventional Commands](./inc/git%20conventional%20commands.md)
+Guia de comandos Git convencionais para controle de versão eficiente
 
-3. Execute o aplicativo
-No terminal, dentro do diretório do projeto, digite o comando para rodar o servidor Flask: 
- ```
-python3 -m flask run
- ```
+---
 
-Código mínimo
- ```
- from flask import Flask
+## 🚀 Como Usar Esta Documentação
 
-# Cria uma instância da aplicação Flask
-app = Flask(__name__)
+1. Clique em qualquer um dos links acima para acessar o documento desejado
+2. Cada documento contém instruções específicas e exemplos de código
+3. Use os atalhos Vim para navegar mais rapidamente entre os arquivos
 
-# Define uma rota para a página inicial (/)
-@app.route('/')
-def hello():
-    # Retorna a mensagem "Hello, World!"
-    frase = 'Hello, World!.yyccyy'
-    frase2 = frase
-    return frase2
+---
 
-# Executa o servidor de desenvolvimento quando o script é executado
-if __name__ == '__main__':
-    app.run(debug=True)
-
-```
+**Última atualização:** abril de 2026
