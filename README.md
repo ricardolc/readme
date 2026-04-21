@@ -11,19 +11,19 @@ Guia completo para criar uma aplicação Flask com Python, incluindo:
 - Estrutura básica de uma aplicação
 - Execução do servidor de desenvolvimento
 
-### [Vim Shortcuts](./inc/vim%20shortcuts.md)
+### [Vim Shortcuts](./inc/vim.md)
 Atalhos essenciais do editor Vim para melhorar sua produtividade:
 - Navegação
 - Modos de operação
 - Edição de texto
 
-### [Coverage em Python](./inc/coverage%20in%20python.md)
+### [Coverage em Python](./inc/coverage_python.md)
 Guia de uso da ferramenta Coverage para medir cobertura de testes:
 - Instalação e configuração
 - Execução de testes com coverage
 - Geração de relatórios em HTML
 
-### [Git Conventional Commands](./inc/git%20conventional%20commands.md)
+### [Git Conventional Commands](./inc/git.md)
 Guia de comandos Git convencionais para controle de versão eficiente
 
 ---
@@ -37,3 +37,4 @@ Guia de comandos Git convencionais para controle de versão eficiente
 ---
 
 **Última atualização:** abril de 2026
+_
