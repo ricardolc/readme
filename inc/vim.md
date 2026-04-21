@@ -30,3 +30,13 @@ Busca e substituição
 * n → repetir busca na mesma direção
 * N → repetir busca na direção oposta
 * :%s/antigo/novo/g → substituir todas as ocorrências no arquivo
+
+
+dw → delete word
+Remove do cursor até o início da próxima palavra.
+
+de → delete to end of word
+Remove do cursor até o final da palavra atual.
+
+daw → delete a word
+Remove a palavra inteira (incluindo espaços ao redor).
