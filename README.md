@@ -23,6 +23,9 @@ Guia de uso da ferramenta Coverage para medir cobertura de testes:
 - Execução de testes com coverage
 - Geração de relatórios em HTML
 
+### [cgroup no Kubernetes](./inc/cgroup.md)
+Guia para validar limites de memória e CPU em `cgroup v2` no Kubernetes, incluindo verificação de `memory.max` e `cpu.max`.
+
 ### [Git Conventional Commands](./inc/git.md)
 Guia de comandos Git convencionais para controle de versão eficiente
 
